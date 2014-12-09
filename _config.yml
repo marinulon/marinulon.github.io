@@ -1,0 +1,4 @@
+markdown: rdiscount
+highlighter: true
+permalink: /:year/:month/:title
+paginate: 10
