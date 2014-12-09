@@ -1,0 +1,18 @@
+---
+layout: article
+title: 1Jungle
+file_name: feature_1jungle.jpg
+logo: logo_1jungle.jpg
+---
+
+> # 1Jungle
+> ## Online shopping is a jungle, with many potential pitfalls, and lots of people would like to hand over their shopping list to someone else, whether for convenience, price, or security.
+> ### 1Jungle is a membership-based website that gives people like these an expert online shopper to do the work for them.
+> Vibrant and approachable, using fun and friendly illustrations to illustrate how the idea works. Everything about the site has been designed for maximum clarity and ease of use: becoming a member, requesting a search, buying additional searches, and upgrading, downgrading or cancelling a membership.
+
+> Services: Branding, illustration and website design.
+
+![Website design, desktop size]({{ site.url }}/assets/folio_1jungle-01.jpg)
+![Website design, mobile and iphone size]({{ site.url }}/assets/folio_1jungle-02.jpg)
+![Illustration]({{ site.url }}/assets/folio_1jungle-03.jpg)
+![Process and landing page design]({{ site.url }}/assets/folio_1jungle-04.jpg)
