@@ -9,7 +9,7 @@ logo: logo_weave.jpg
 > ## Weave are a web communications company based in Brunswick East, a vibrant inner suburb of Melbourne.
 > ### Through this experience, Weave noticed how hard it is to find Australian web companies that specialise in strategy and content - two of the most important elements of a successful website. Weave Web Communications was created to fill this gap.
 
-> **Australian Web Awards 2012:** Finalist, Best Accessibility category. <br/>Services: Services: Branding, illustration, marketing colateral, presentation templates, email marketing templates and website design.
+> **Australian Web Awards 2012:** Finalist, Best Accessibility category. <br/>**Services:** Services: Branding, illustration, marketing colateral, presentation templates, email marketing templates and website design.
 
 ![Website design, desktop size]({{ site.url }}/assets/folio_weave-01.jpg)
 ![Website design, mobile and iphone size]({{ site.url }}/assets/folio_weave-02.jpg)

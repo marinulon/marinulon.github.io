@@ -10,7 +10,7 @@ logo: logo_benchpr.jpg
 > ### Starting with designing BENCH PR a new logo to reflect the idea of a "benchmark" that the brand is built around, I designed a website that showcases the firm's high-profile clients and impressive results.
 > Using a series of collages created from real media headlines about each company, linked through to detailed case studies., the website is dynamic, business-like and focused on results.
 
- > Services: Branding and website design.
+ > **Services:** Branding and website design.
 
 ![Website design, desktop size]({{ site.url }}/assets/folio_benchpr-01.jpg)
 ![Website design, mobile and iphone size]({{ site.url }}/assets/folio_benchpr-02.jpg)
