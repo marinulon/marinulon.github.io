@@ -10,7 +10,7 @@ logo: logo_curve.jpg
 > ### The magazine's website was dowdy and limited; a new website was needed to impress potential subscribers and add value for existing ones.
 > The site is built around a blog containing up-to-date design news, and a full magazine archive for subscribers.
 
-> **Australian Web Awards 2011:** Finalist, E-commerce category. <br/>**Services:** Illustration and website design.
+> **Australian Web Awards 2011:** Finalist, E-commerce category. <br/>**Services:** Website design.
 
 ![Website design, desktop size]({{ site.url }}/assets/folio_curve-01.jpg)
 ![Website design, mobile and iphone size]({{ site.url }}/assets/folio_curve-02.jpg)
