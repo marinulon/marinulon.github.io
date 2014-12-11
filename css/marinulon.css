@@ -242,8 +242,8 @@ a{
   a:active,
   a:focus{
     outline:none;
-    position: relative;
-    top: 1px;
+    /*position: relative;
+    top: 1px;*/
   }
 /*------------------------------------*\
     lists
@@ -611,6 +611,8 @@ header {
   z-index: 2;
   left: 50%;
   top: 0;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
   width: 100%;
   background-color: #ffffff;
@@ -620,7 +622,7 @@ header {
   .work--expanded {
     width: 80%;
     padding: 80px;
-    max-width: 1016px;
+    max-width: 942px;
     top: 50px;
   }
 }
