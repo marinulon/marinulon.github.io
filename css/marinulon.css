@@ -375,7 +375,7 @@ header {
   .header__nav {
     max-width: 940px;
     margin: 0 auto;
-    padding: 2em;
+    padding: 1.7em;
   }
   @media (min-width: 840px) {
     .header__nav {
@@ -386,7 +386,7 @@ header {
     .logo {
       display: inline-block;
       color: #ffffff;
-      margin-right: 20px;
+      margin-right: 5px;
     }
     @media (min-width: 840px) {
       .logo {
@@ -410,7 +410,7 @@ header {
     .nav-item {
       display: inline-block;
       padding: 0.25em 0.5em;
-      margin-right: 5px;
+      margin-right: 2px;
       border: 2px solid #ffffff;
       color: #ffffff;
       font-weight: 600;
