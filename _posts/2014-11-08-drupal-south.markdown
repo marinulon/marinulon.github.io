@@ -10,7 +10,7 @@ logo: logo_drupalsouth.jpg
 > ### From governments, to commerce, to education and the not for profit sector, people are increasingly choosing Drupal.
 > In 2015, DrupalSouth and Drupal Downunder have merged under the DrupalSouth banner. The event aims to draw an international audience together to share, to learn and to connect.
 
-> **Services:** Branding, illustration, website design, sponsorship prospectus and sticker design.
+> **Services:** Branding, illustration, website design, sponsorship prospectus, tee shirts, Banners and sticker design.
 
 ![Website design, desktop size]({{ site.url }}/assets/folio_drupal-south-01.jpg)
 ![Website design, mobile and iphone size]({{ site.url }}/assets/folio_drupal-south-02.jpg)
