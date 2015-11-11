@@ -675,6 +675,9 @@ header {
     float: left;
     padding-right: 20px;
   }
+  .article__body p > img {
+    display: block;
+  }
 }
 
 footer {
