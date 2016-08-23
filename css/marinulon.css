@@ -604,6 +604,7 @@ header {
       padding-bottom: 56.25%;
     }
     .folio__item a {
+      position: absolute;
       text-indent: -9999px;
       top: 0;
       bottom: 0;
