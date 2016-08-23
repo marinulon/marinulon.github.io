@@ -593,7 +593,8 @@ header {
       cursor: pointer;
     }
     .folio__item:hover {
-      outline: 3px solid #222;
+      background-color: rgba(42, 64, 87, .4);
+      color: rgba(42, 64, 87, .4);
     }
   }
     .folio__item:before {
