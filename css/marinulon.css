@@ -593,12 +593,8 @@ header {
       cursor: pointer;
       overflow: hidden;
     }
-    .folio__item:hover img {
-      -moz-transform: scale(1.5);
-      -webkit-transform: scale(1.5);
-      -o-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-      transform: scale(1.5);
+    .folio__item:hover a {
+      background-color: rgba(42, 64, 87, .4);
     }
   }
     .folio__item:before {
@@ -608,9 +604,13 @@ header {
       padding-bottom: 56.25%;
     }
     .folio__item a {
-      position: absolute;
-      left: -99999px;
-      top: -99999px;
+      text-indent: -9999px;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      right: 0;
     }
 
 .work--expanded {
