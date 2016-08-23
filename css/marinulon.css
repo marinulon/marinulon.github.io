@@ -592,6 +592,9 @@ header {
       width: 33.3333%;
       cursor: pointer;
     }
+    .folio__item:hover {
+      border: 3px solid #555;
+    }
   }
     .folio__item:before {
       content: "";
