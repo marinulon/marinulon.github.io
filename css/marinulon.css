@@ -403,7 +403,8 @@ header {
         text-align: left;
       }
     }
-      .logo:hover {
+      .logo:hover,
+      .logo:focus {
         color: #ffd102;
       }
 
@@ -431,7 +432,8 @@ header {
       .nav-item.last {
         margin-right: 0;
       }
-      .nav-item:hover {
+      .nav-item:hover,
+      .nav-item:focus {
         color: #ffd102;
         border-color: #ffd102;
       }
@@ -477,7 +479,8 @@ header {
   .intro a {
     color: #ffffff;
   }
-    .intro a:hover {
+    .intro a:hover,
+    .intro a:focus {
       color: #ffd102;
     }
 
@@ -553,7 +556,8 @@ header {
   .contact a {
     color: #000000;
   }
-    .contact a:hover h3{
+    .contact a:hover h3,
+    .contact a:focus h3 {
       color: #226dbf;
     }
 
@@ -566,7 +570,8 @@ header {
     display: inline-block;
     margin-right: 10px;
   }
-    .social a:hover {
+    .social a:hover,
+    .social a:focus {
       color: #226dbf;
     }
 
@@ -593,7 +598,8 @@ header {
       cursor: pointer;
       overflow: hidden;
     }
-    .folio__item:hover a {
+    .folio__item:hover a,
+    .folio__item:focus a {
       background-color: rgba(42, 64, 87, .4);
     }
   }
@@ -643,7 +649,8 @@ header {
     font-weight: 600;
     text-align: center;
   }
-  .work--expanded__collapse:hover {
+  .work--expanded__collapse:hover,
+  .work--expanded__collapse:focus {
     color: #226dbf;
     border-color: #226dbf;
   }
