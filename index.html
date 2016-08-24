@@ -147,7 +147,6 @@
       <ul class="folio">
         {% for post in site.posts %}<li
           class="folio__item"
-          data-url="{{ post.url }}"
           style="background-image:url({{ site.url }}/assets/{{ post.file_name }})">
 
           <a href="{{ post.url }}">{{ post.title }}</a>
@@ -201,8 +200,8 @@
       // Folio
       $expanded = $('.work--expanded');
 
-      $('.folio__item').click(function() {
-        _url = $(this).attr('data-url');
+      $('.folio__item a').click(function() {
+        _url = $(this).attr('href');
 
         // Find and save the original scroll point
         _origPosition = $(this).offset().top - _headerHeight;
@@ -213,7 +212,9 @@
           $expanded.fadeIn(500);
           $('html, body').animate({scrollTop:0}, 500);
         });
-
+        
+        // Don't follow click.
+        return false;
       });
 
       $('.work--expanded__collapse', $expanded).click(function (){
