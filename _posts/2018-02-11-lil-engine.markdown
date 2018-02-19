@@ -13,5 +13,5 @@ logo: logo_lil-engine.jpg
 
 ![Website design, desktop size]({{ site.url }}/assets/folio_lilengine-01.jpg)
 ![Website design, mobile and iphone size]({{ site.url }}/assets/folio_lilengine-02.jpg)
-![Illustration]({{ site.url }}/assets/folio_lilengine.jpg)
+![Image creation]({{ site.url }}/assets/folio_lilengine-03.jpg)
 ![Process and landing page design]({{ site.url }}/assets/folio_lilengine-04.jpg)
