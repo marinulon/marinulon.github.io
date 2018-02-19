@@ -14,4 +14,4 @@ logo: logo_drd.jpg
 ![Website design, desktop size]({{ site.url }}/assets/folio_drd-01.jpg)
 ![Website design, mobile and iphone size]({{ site.url }}/assets/folio_drd-02.jpg)
 ![Illustration]({{ site.url }}/assets/folio_drd-03.jpg)
-![Process and landing page design]({{ site.url }}/assets/folio_drd.jpg)
+![Process and landing page design]({{ site.url }}/assets/folio_drd-04.jpg)
