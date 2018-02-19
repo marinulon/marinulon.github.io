@@ -13,6 +13,5 @@ logo: logo_courts.jpg
 
 ![Website design, desktop size]({{ site.url }}/assets/folio_courts-01.jpg)
 ![Website design, mobile and iphone size]({{ site.url }}/assets/folio_courts-02.jpg)
-![Illustration]({{ site.url }}/assets/folio_courts-03.jpg)
+![Component design]({{ site.url }}/assets/folio_courts-03.jpg)
 ![website design, internal page templates]({{ site.url }}/assets/folio_courts-04.jpg)
-![Process and landing page design]({{ site.url }}/assets/folio_courts.jpg)
