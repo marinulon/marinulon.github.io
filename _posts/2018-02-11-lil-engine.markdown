@@ -2,7 +2,7 @@
 layout: article
 title: Lil Engine
 file_name: feature_lilengine.jpg
-logo: logo_lil-engine.jpg
+logo: logo_lilengine.jpg
 ---
 
 > # Lil Engine
