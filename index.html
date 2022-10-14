@@ -54,105 +54,20 @@
 
     <h1 class="intro__title">Hi, I'm Marin Sekesan.<br />Melbourne based freelance UX, UI and Brand Designer.</h1>
 
-    <h2 class="intro__summary">I also play guitar in a band called <a href="http://kalacoma.com" target="_blank">Kalacoma</a>, build my own effects pedals, love vintage instruments, pizza and formula one.</h2>
+    <h2 class="intro__summary"></h2>
+<h3>With an education in both Graphic Design, User Experience Design and Audio Engineering, I have spent the past 15 years developing my passion for functional design.</h3>
+
+        <p>Delivering intuitive design for well established Australian organisations, government, universities and innovative startups alike.</p>
+
+        <p>My knowledge of web standards and compliant HTML and CSS enables me to design responsive, touch screen optimised interfaces that are accessible to as many people as possible.</p>
+        
+    <p>I'm currently employed at <a href="https://www.previousnext.com.au/" target="_blank">PreviousNext</a> and also play guitar in a band called <a href="http://kalacoma.com" target="_blank">Kalacoma</a>.</p>
 
     <p class="intro__nav">
-      <a href="#cv" class="nav-item is-scroll nav-item--big first">Bio</a>
-      <a href="https://www.linkedin.com/in/marinsekesan/" class="nav-item nav-item--big last">Contact</a>
+      <a href="https://www.linkedin.com/in/marinsekesan/" class="nav-item nav-item--big last" target="_blank">Contact</a>
     </p>
-
-  </section>
-
-  <main role="main" class="gangster-wrapper">
-
-    <section class="cv">
-
-      <h2 id="cv" class="h">Bio</h2>
-
-      <div class="cv--img">
-
-        <img src="{{ site.url }}/assets/marinsekesan.jpg" alt="Photo of Marin" />
-
-      </div>
-      <div class="cv--bio">
-
-        <h3>With an education in both Graphic Design and Audio Engineering, I have spent the past 12 years developing my passion for functional design.</h3>
-
-        <p>Delivering award winning digital designs for well established Australian organisations and innovative start-ups alike.</p>
-
-        <p>My knowledge of web standards and compliant HTML5 and CSS3 enables me to design responsive, touch screen optimised interfaces that are accessible to as many people as possible.</p>
-
-         <div class="social">
-         
-          <a href="http://au.linkedin.com/in/marinsekesan" class="fa fa-linkedin" target="_blank"><i class="h">LinkedIn</i></a>
-        </div>
-      </div>
-
-    </section>
-
-
-    <footer role="contentinfo">
-
-      {% include footer.html %}
-
-    </footer>
 
   </main>
 
-  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script>
-    $(document).ready(function() {
-
-      // Header hidden
-      $header = $('header');
-      $header.hide();
-      _headerHeight = $header.outerHeight();
-      _windowHeight = $(window).height();
-
-      $(window).scroll(function() {
-        if( $(window).scrollTop() > _windowHeight) {
-          $header.slideDown(500);
-        } else {
-          $header.slideUp(500);
-        }
-      });
-
-      // Nav links
-      $('.is-scroll').click(function() {
-        _hash = this.hash.substr(1);
-        _locationPosition = $("." + _hash).offset().top - _headerHeight;
-        $('html, body').animate({scrollTop:_locationPosition}, 500);
-
-        return false;
-      });
-
-      // Folio
-      $expanded = $('.work--expanded');
-
-      $('.folio__item a').click(function() {
-        _url = $(this).attr('href');
-
-        // Find and save the original scroll point
-        _origPosition = $(this).offset().top - _headerHeight;
-        sessionStorage.setItem('orig-position', _origPosition);
-
-        $('.work--expanded__content', $expanded).load(_url + ' #article .article__body', function() {
-          $('body').addClass('work--is-expanded');
-          $expanded.fadeIn(500);
-          $('html, body').animate({scrollTop:0}, 500);
-        });
-        
-        // Don't follow click.
-        return false;
-      });
-
-      $('.work--expanded__collapse', $expanded).click(function (){
-        $('body').removeClass('work--is-expanded');
-        $expanded.fadeOut(500);
-        _origPosition = sessionStorage.getItem('orig-position');
-        $('html, body').animate({scrollTop:_origPosition}, 500);
-      });
-    });
-  </script>
 </body>
 </html>
