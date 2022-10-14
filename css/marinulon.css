@@ -369,7 +369,7 @@ header {
 }
 @media (min-width: 720px) {
   header {
-    background-image: url(/assets/css_bg--large.jpg);
+    background--color:#000000;
   }
 }
   .header__nav {
@@ -449,7 +449,7 @@ header {
   .intro {
     padding: 6% 2em 0;
     height: 100vh;
-    background-image: url(/assets/css_bg--large.jpg);
+    background-color:#000000;
   }
 }
 .work--is-expanded .intro {
