@@ -57,9 +57,8 @@
     <h2 class="intro__summary">I also play guitar in a band called <a href="http://kalacoma.com" target="_blank">Kalacoma</a>, build my own effects pedals, love vintage instruments, pizza and formula one.</h2>
 
     <p class="intro__nav">
-      <a href="#cv" class="nav-item is-scroll nav-item--big first">CV</a>
-      <a href="#work" class="nav-item is-scroll nav-item--big">Work</a>
-      <a href="mailto:me@marinsekesan.com" class="nav-item nav-item--big last">Contact</a>
+      <a href="#cv" class="nav-item is-scroll nav-item--big first">Bio</a>
+      <a href="https://www.linkedin.com/in/marinsekesan/" class="nav-item nav-item--big last">Contact</a>
     </p>
 
   </section>
@@ -68,7 +67,7 @@
 
     <section class="cv">
 
-      <h2 id="cv" class="h">CV</h2>
+      <h2 id="cv" class="h">Bio</h2>
 
       <div class="cv--img">
 
@@ -83,106 +82,14 @@
 
         <p>My knowledge of web standards and compliant HTML5 and CSS3 enables me to design responsive, touch screen optimised interfaces that are accessible to as many people as possible.</p>
 
-      </div>
-
-
-      <div class="cv--exp">
-
-        <h3>Experience</h3>
-
-        <h4>MD Studio</h4>
-        <p>Sound Engineer | 2004 - 2005</p>
-
-        <h4>Freelance</h4>
-        <p>Graphic Designer | 2007</p>
-
-        <h4>Acorn</h4>
-        <p>Visual and Brand Designer | 2008 - 2010</p>
-
-        <h4>Weave</h4>
-        <p>IA, Visual and Brand Designer  | 2010 - 2015</p>
-
-        <h4>Freelance</h4>
-        <p>UX, UI and Brand Designer | 2015 - 2018</p>
-        
-        <h4>Alphawhale</h4>
-        <p>Visual and UI Designer (UX Team)  2018 - 2019</p>
-        
-        <h4>Freelance</h4>
-        <p>UX, UI, and Brand Designer | 2019 - Current</p>
-
-      </div>
-      <div class="cv--awards">
-
-        <h3>Awards</h3>
-        <h4>Australian Web Awards</h4>
-        <p>National Finalist: E-commerce | 2011</p>
-
-        <h4>Australian Web Awards</h4>
-        <p>National Finalist: Best Accessibility | 2012</p>
-
-        <h4>Australian Web Awards</h4>
-        <p>Victorian winner: Not for profit | 2013</p>
-
-        <h4>Australian Web Awards</h4>
-        <p>Victorian winner: Not for profit | 2014</p>
-
-      </div>
-      <div class="cv--quals">
-
-        <h3>Qualifications</h3>
-
-        <h4>Melbourne Polytechnic (NMIT)</h4>
-        <p>CertIV in Audio Production | 2003</p>
-
-        <h4>Tractor</h4>
-        <p>AdvDip of Graphic Design | 2006 &amp; 2007</p>
-        
-        <h4>Data Runs Deep</h4>
-        <p>GA, Data Studio & Tag Manager | 2018</p>
-        
-        <h4>Academy Xi</h4>
-        <p>User Experience Design | 2018</p>
-
-        <div class="contact">
-          <a href="mailto:me@marinsekesan.com">
-            <h3 id="contact"><i class="fa fa-paper-plane"></i> Get in touch</h3>
-            <p>I’m available for freelance work</p>
-          </a>
-        </div>
-
-        <div class="social">
-          <!-- <a href="http://twitter.com/marinsekesan" class="fa fa-twitter" target="_blank"><i class="h">Twitter</i></a>
-          <a href="http://twitter.com/marinulon" class="fa fa-behance" target="_blank"><i class="h">Behance</i></a>
-          <a href="http://instagram.com/marinsekesan" class="fa fa-instagram" target="_blank"><i class="h">Instagram</i></a> -->
+         <div class="social">
+         
           <a href="http://au.linkedin.com/in/marinsekesan" class="fa fa-linkedin" target="_blank"><i class="h">LinkedIn</i></a>
         </div>
-
       </div>
 
     </section>
 
-    <section class="work">
-
-      <h2 id="work" class="h">Work</h2>
-
-      <ul class="folio">
-        {% for post in site.posts %}<li
-          class="folio__item"
-          style="background-image:url({{ site.url }}/assets/{{ post.file_name }})">
-
-          <a href="{{ post.url }}">{{ post.title }}</a>
-
-        </li>{% endfor %}
-      </ul>
-
-    </section>
-
-    <section class="work--expanded">
-      <div class="work--expanded__collapse collapse-top" title="close">x</div>
-      <div class="work--expanded__content"></div>
-      <div class="work--expanded__collapse collapse-bottom" title="close">close</div>
-    </section>
 
     <footer role="contentinfo">
 
