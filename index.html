@@ -1,61 +1,103 @@
----
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114351518-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-114351518-1');
-</script>
-
-  <!-- meta -->
   <meta charset="UTF-8">
-  {% include mobile_meta.html %}
+  <meta http-equiv="cleartype" content="on">
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- dns prefetch for faster loading of external resources -->
-  {% include dns_prefetch.html %}
+  <link rel="preconnect" href="//www.google-analytics.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <title>marinsekesan.com</title>
   <meta name="author" content="Marin Sekesan">
-  <meta name="description" content="Melbourne based freelance Information Architect, Visual Designer and Brand Designer.">
+  <meta name="description" content="Marin Sekesan is a A Melbourne based UX Designer.">
 
-  <!-- stylesheet -->
-  <link rel="stylesheet" href="/css/marinulon.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap" rel="stylesheet">
+  <style>
+    :root { 
+      --fg: light-dark(#1c1b22, white);
+      --bg: light-dark(white, #1c1b22);
+      --accent: light-dark(blue, fuchsia);
+      --hover: light-dark(#1c1b22, yellow);
 
+      color-scheme: light dark;
+      color: var(--fg);
+      background-color: var(--bg);
+      font-family: Inter, system-ui, sans-serif;
+      font-size: clamp(1rem, 6.5vw, 1.5rem);
+      line-height: 1.6;
+      text-wrap: pretty;
+    }
+    html {
+      block-size: 100vh;
+      place-content: center;
+    }
+    body {
+      inline-size: min(100%, 65ch);
+      box-sizing: border-box;
+      margin: auto;
+      padding: 1em;
+    }
+    h1 {
+      margin-block-end: 3rem;
+    }
+    p {
+      margin-block: 2rem;
+      font-size: inherit;
+    }
+    .lede {
+      font-size: 1.2rem;
+    }
+    img {
+      max-inline-size: 100%;
+      block-size: auto;
+    }
+    :any-link {
+      color: var(--accent);
+      text-underline-offset: 0.08em;
+      
+      &:active {
+        text-underline-offset: 0.12em; 
+      }
 
-  <!-- javascript -->
-  {% include javascript.html %}
+      &:focus-visible {
+        outline: dashed 0.08em var(--fg);
+      }
+
+      &:hover:not(:active, :focus-visible) {
+        background-color: var(--hover);
+        color: var(--bg);
+      }
+    }
+    .button {
+      padding-block: .5rem;
+      padding-inline: 1rem;
+      border: 2px solid;
+      text-decoration: none;
+    }
+  </style>
 
 </head>
-<body class="top">
+<body>
 
-  <section class="intro">
+    <img src="./assets/MS_avatar_2025.png" alt="blurred out photo with clouds" width="320" height="320" />
 
-    <div class="intro__logo"></div>
+    <h1>Hi, I'm Marin Sekesan.<br />A Melbourne based UX Designer.</h1>
 
-    <h1 class="intro__title">Hi, I'm Marin Sekesan.<br />A Melbourne based UX Designer.</h1>
+    <p class="lede">With an education in User Experience Design, Graphic Design and Audio Engineering, I have spent the past 17 years developing my passion for functional design.</h3>
 
-<h3>With an education in both Graphic Design, User Experience Design and Audio Engineering, I have spent the past 15 years developing my passion for functional design.</h3>
+    <p>Delivering intuitive design for well established Australian organisations, government, universities and innovative startups alike.</p>
 
-        <p>Delivering intuitive design for well established Australian organisations, government, universities and innovative startups alike.</p>
-
-        <p>My knowledge of web standards and compliant HTML and CSS enables me to design responsive, touch screen optimised interfaces that are accessible to as many people as possible.</p>
+    <p>My knowledge of web standards and compliant HTML and CSS enables me to design responsive, touch screen optimised interfaces that are accessible to as many people as possible.</p>
         
-    <p>I'm currently employed at <a href="https://www.previousnext.com.au/" target="_blank">PreviousNext</a> and play guitar in <a href="http://kalacoma.com" target="_blank">Kalacoma</a>.</p>
+    <p>I'm currently employed at <a href="https://www.previousnext.com.au/" target="_blank">PreviousNext</a>.</p>
 
-    <p class="intro__nav">
-      <a href="https://www.linkedin.com/in/marinsekesan/" class="nav-item nav-item--big last" target="_blank">Contact</a>
+    <p>
+      <a href="https://www.linkedin.com/in/marinsekesan/" class="button" target="_blank">Contact</a>
     </p>
-
-  </main>
 
 </body>
 </html>
